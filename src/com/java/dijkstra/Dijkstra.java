@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Dijkstra {
 
-    //不能设置为Integer.MAX_VALUE
+    //不能设置为Integer.MAX_VALUE = 0x7fffffff
     public static int MaxValue = 100000;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
